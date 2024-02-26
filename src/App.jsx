@@ -1,6 +1,20 @@
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from "./sections";
+
 /* 
 This method can only be used instead of using
 export default function, if there are no any console.logs or function callings
+
+ :- there is no return method and using () except {} brackets
+
 */
 
 const App = () => (
