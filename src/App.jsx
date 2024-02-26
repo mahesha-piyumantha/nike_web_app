@@ -1,7 +1,6 @@
 /* 
 This method can only be used instead of using
 export default function, if there are no any console.logs or function callings
-
 */
 
 const App = () => (
@@ -12,9 +11,9 @@ const App = () => (
     <section className="padding">Super Quality</section>
     <section className="padding-x py-10">Services</section>
     <section className="padding">Special Offer</section>
-    <section className="padding">Special Offer</section>
-    <section className="padding">Special Offer</section>
-    <section className="padding">Special Offer</section>
+    <section className="padding bg-pale-blue">Customer Reviews</section>
+    <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
+    <section className="padding-x padding-t pb-8 bg-black">Footer</section>
   </main>
 );
 
