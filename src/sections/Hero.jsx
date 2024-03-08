@@ -38,7 +38,11 @@ const Hero = () => {
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-        <Button label="Shop Now" iconURL={arrowRight} />
+        <Button
+          label="Shop now"
+          textColor="text-white"
+          iconURL={arrowRight}
+        />
         <div
           className="flex justify-start items-start
          flex-wrap w-full mt-20 gap-16"
@@ -74,7 +78,7 @@ const Hero = () => {
           className="flex sm:gap-6 gap-4 absolute -bottom-[5%] 
         sm:left-[10%] max-sm:px-6"
         >
-          {shoes.map((shoe) => { 
+          {shoes.map((shoe) => {
             return (
               <div key={shoe}>
                 <ShoeCard
