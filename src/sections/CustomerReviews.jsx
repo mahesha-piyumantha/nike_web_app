@@ -1,7 +1,9 @@
 
 const CustomerReviews = () => {
   return (
-    <div>CustomerReviews</div>
+    <section className="max-container">
+      CustomerReviews
+    </section>
   )
 }
 
